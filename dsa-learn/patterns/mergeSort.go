@@ -29,7 +29,6 @@ func MergeHelper(arr1, arr2 []int) []int {
 	return merged
 }
 
-// [5,2,3,1,4]
 func MergeSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
